@@ -1,32 +1,34 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "Flatland In Chaos", "img/projects/project-1-icon.png", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Flatland In Chaos</strong> is a thing of beauty that I am so proud of. Because I learn to complete game from scratch and published it on Google play store.
+     
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/pJiwNEyHVF63Tdwo2lkgDEiGxFoD_T5vEzl6RnYPlCJwMmggBVkA-se3YD1HvxGMdKk=w526-h296-rw" alt= "FlatLand In Chaos" />
     </div>
     <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.vishwah.FlatLandInChaos" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Score Gameplay type</li>
+        <li>Leaderboards and achivements from Google Play Services</li>
+        <li>Original Art, Music and Sound effects</li>
+        <li>Monetization though both In-game items and Reward videos, using UnityAds</li>
         </ul>
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/Hn0rARtmGSUOvlZVioLe6kNxqBXE9zXmPOGli-ZyekKoW8ExT73_h-HMWlIe4l3F3A=w526-h296-rw" alt="Flatland in Chaos Screenshot" />
+        <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/pJiwNEyHVF63Tdwo2lkgDEiGxFoD_T5vEzl6RnYPlCJwMmggBVkA-se3YD1HvxGMdKk=w526-h296-rw" alt="Flatland in Chaos Screenshot" />
+        <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/vL1RXA0bOYFDYSIFsijhz7kwx51OFm4ccFASVnTdi0A54GPGNz0vNCWv2SXIxxOojqmk=w526-h296-rw" alt="Flatland in Chaos Screenshot" />
+        <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/v80dBwEV8ZK1fxMwilJAA0rWV-N6MipiJnLycleNG5YJnSccjtjDTcZlrT6XHxpzd11I=w526-h296-rw" alt="Flatland in Chaos Screenshot" />
     </div>
     `, "#23bd69", true),
     new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
