@@ -40,10 +40,12 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Languages</h3>
+        <h3>Languages & Scripting</h3>
        <div class="skill">c</div>
        <div class="skill">c#</div>
        <div class="skill">c++</div>
+       <div class="skill">Unreal Blueprints</div>
+       <div class="skill">GD Script</div>
       </div>
       <div style="clear:both" />
       <div class="skill-set">
@@ -80,7 +82,7 @@
       <h2>Languages</h2>
 
       <h3>Tamil</h3>
-      <div>My Mother toung</div>
+      <div>My Mother tongue</div>
 
       <h3>English</h3>
       <div>Fluent speaker and excellent listener</div>
@@ -88,16 +90,16 @@
       <h2>Besides...</h2>
       <div>
         <h3>I ❤️ Video Games</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <div>My all time favorites are the Witcher 3, god of war 2018 & ragnarok, red dead redemption 2, elden ring and Hades</div>
 
         <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <div>I do lot of weight-lifting and I love Cricket.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 Books</h3>
+        <div>I am a avid reader and some of my favorites are the Stranger, the Alchemist, half girlfriend ;)</div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💚 Cinema</h3>
+        <div>The Movie and series I love Spider-Man across the spider verse, game of thrones, Peaky Blinders, one piece.</div>
 
       </div>
     </div>
