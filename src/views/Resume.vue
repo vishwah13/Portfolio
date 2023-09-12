@@ -90,7 +90,7 @@
       <h2>Besides...</h2>
       <div>
         <h3>I ❤️ Video Games</h3>
-        <div>My all time favorites are the Witcher 3, god of war 2018 & ragnarok, red dead redemption 2, elden ring and Hades</div>
+        <div>My all time favorites are the god of war series, the witcher 3, red dead redemption 2, elden ring and Hades</div>
 
         <h3>I 🧡 Sports</h3>
         <div>I do lot of weight-lifting and I love Cricket.</div>

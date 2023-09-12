@@ -46,7 +46,7 @@ export default [
         <li>Unique gameplay</li>
         <li>Original music and sound effects</li>
         <li>Avaibale on web and windows</li>
-        <li>Event driven programming</li>
+        <li>SOLID design principles</li>
         </ul>
     </div>
 
@@ -162,5 +162,30 @@ export default [
         <img class="pc-screenshot" src="https://github.com/Team2-PaintGame/Team2-PaintingGame/raw/main/splatatthemuseumstuff/splitscreen.PNG" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://user-images.githubusercontent.com/52098098/249173632-0911fa5c-4dd9-4d4f-a826-3827aaabe2d1.PNG" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://user-images.githubusercontent.com/52098098/249173777-a5242969-a182-41aa-877e-4f51463b30ed.PNG" alt="Cloud Drew Land Screenshot" />
+    </div>`, "#e48246"),
+    new ProjectData("project-6", "Doodle Jump in C", "img/projects/project-5-icon.png", `
+    <div class="paragraph">
+        <strong>Doodle Jump in C</strong> is a clone of Doodle jump built using Raylib library.
+    </div>
+    <div class="paragraph">
+    Main features :
+    <ul>
+    <li>Built using C</li>
+    <li>Only single header file is used</li>
+    <li>Procedural programming</li>
+    <li>Pixel art</li>
+    <li>infinit gameplay</li>
+    </ul>
+</div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Source code available on <a href="https://github.com/vishwah13/Doodle-Jump-in-C" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="https://user-images.githubusercontent.com/52098098/267314455-4d052d2a-3a56-410a-b147-cf9af86e8c3c.PNG" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="https://user-images.githubusercontent.com/52098098/267314479-e20a5a7c-cb64-4d5b-bc9b-b046c76095bf.PNG" alt="Cloud Drew Land Screenshot" />
     </div>`, "#e48246")
 ];
