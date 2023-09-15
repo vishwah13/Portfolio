@@ -8,7 +8,7 @@
     <ul>
       <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
+        <a href="http://vishwah.com" target="_blank">https://vishwah.com</a>
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
