@@ -7,7 +7,7 @@
         I'm <strong>Vishwah Sivagurunathan</strong>, an computer game engineering graduate from Newcastle University and also a aspering game developer, And I like to make games and apps as a hobby and also for fun. What makes my passion for programming video games is the challenge and creative ways to solve it.<br/>
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> where most of them are made for game jams, on <router-link to="/other-projects">other projects</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> where most of them are made for game jams, my other notable <router-link to="/other-projects">projects</router-link>, and my <router-link to="/resume">resume</router-link>.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game developer. You can reach me at <a href="mailto:vishwahrocks@gmail.com">vishwahrocks@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
