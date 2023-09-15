@@ -13,7 +13,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/Visu.jpg" alt="pic of Vishwah" /> 
+      <img src="img/Visu.png" alt="pic of Vishwah" /> 
     </div>
 
     <div style="clear:both"></div>

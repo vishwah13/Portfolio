@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/Visu.jpg" alt="Photo of Visu" />
+      <img src="img/Visu.png" alt="Photo of Visu" />
     </div>
 
     <div style="clear:both"></div>
