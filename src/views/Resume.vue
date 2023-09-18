@@ -4,11 +4,11 @@
 
     <div class="paragraph">
       I'm <strong>Vishwah Sivagurunathan</strong>, a Computer Science Student with a major in game engineering, highly motivated to work in a team.
-       Have created and published multiple games on both itch.io and google play store.
+       Have created and published multiple games on both <a href="https://vishwah13.itch.io/">itch.io</a> and <a href="https://play.google.com/store/apps/developer?id=VisuDev">google play store</a>.
       <br />
       <br />Most of the game programming is self-learned by making games myself as a hobby.
       <br />I love to program and design systems, gameplay and tools. Optimize and make things faster and stable focusing on quality over quantity. 
-      <br />I love teamwork, because it is much more fun to work with people who share the same passion as you.
+      <br />I love teamwork, because it is much more fun to work with people who share the same passion as I do.
       <br />
       <br />Right now I'am looking for a job as game developer, so if you have any opportunity or want to know about some stuff how I made feel free to 
       <router-link to="/contact">contact me</router-link>.
