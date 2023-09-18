@@ -1,9 +1,9 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-7", "AR Map", "https://play-lh.googleusercontent.com/dy-ZDU249ZiH8ynNgy_U6n6d0SpW3GmBx7Lq5Hd5UVUQ1GU7dwpRJEATnRBdxG-X7g=w2560-h1440-rw", `
+    new ProjectData("project-8", "AR Map", "https://play-lh.googleusercontent.com/dy-ZDU249ZiH8ynNgy_U6n6d0SpW3GmBx7Lq5Hd5UVUQ1GU7dwpRJEATnRBdxG-X7g=w2560-h1440-rw", `
     <div class="paragraph">
-      <strong>AR Map</strong> allows user to search for a city and display the whole Map in 3D augumented reality.
+      <strong>AR Map</strong> alows user to search for a city and display the whole Map in 3D augumented reality.
        AR Map is the first Augumented reality app which I published. It's available on Google play Store.
       I always facinated my both VR and AR and I always wanted to build something useful and cool in AR that's why I developed it.
             </div>
@@ -26,7 +26,7 @@ export default [
           <img class="pc-screenshot" src="img/projects/ARMap2.webp" alt="AR Map Screenshot" /> 
         </div>
     `, "#c10606", false, true),
-    new ProjectData("project-8", "UE5 Melee Comabat System", "img/projects/UE5_MCS.gif", `
+    new ProjectData("project-9", "UE5 Melee Comabat System", "img/projects/UE5_MCS.gif", `
     <div class="paragraph">
                 <strong>Melee Comabat System</strong> is a gameplay system build inside Unreal Engine 5 using Gameplay Ability System and c++, inspired by dark souls.
             </div>
@@ -52,7 +52,7 @@ export default [
                 <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
                 <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
             </div>`, "#1ca1e2"),
-    new ProjectData("project-9", "Recipe finder", "img/projects/recipe.png", `
+    new ProjectData("project-10", "Recipe finder", "img/projects/recipe.png", `
     <div class="paragraph">
                 <strong>Recipe finder</strong> is built using react, this is a learnig project which I used to learn React JS.
                  In this app the user can search for any recipe it will provide the details for how to make the dishs and also provides calorie information.

@@ -52,7 +52,7 @@ export default [
 
     <div class="paragraph">
     <div class="notice">
-        You can play it on browser and also windows build is available at <a href="https://vishwah13.itch.io/hopin" target="_blank">itch.io</a>.
+    Play on browser and Windows is available at <a href="https://vishwah13.itch.io/hopin" target="_blank">itch.io</a>.
     </div>
     </div>
 
@@ -188,5 +188,29 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/Doodle.png" alt="Doodle Screenshot" />
         <img class="pc-screenshot" src="img/projects/Doodle2.png" alt="Doodle Screenshot" />
+    </div>`, "#e48246"),
+    new ProjectData("project-7", "Ultimate BreakOut", "img/projects/BreakOut.gif", `
+    <div class="paragraph">
+        <strong>Ultimate BreakOut</strong> is a clone of Breakout built using Godot game engine for GMTK 2021 game jam.
+    </div>
+    <div class="paragraph">
+    Main features :
+    <ul>
+    <li>Made using Godot Engine</li>
+    <li>Co-op</li>
+    <li>Post-Processing effects</li>
+    <li>infinit gameplay</li>
+    </ul>
+</div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Play on browser and Windows is available at <a href="https://vishwah13.itch.io/ultimate-breakout" target="_blank">Itch.io</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/BreakOut.gif" alt="BreakOut Screenshot" />
+        <img class="pc-screenshot" src="img/projects/BreakOut2.jpg" alt="BreakOut Screenshot" />
     </div>`, "#e48246")
 ];

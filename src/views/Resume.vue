@@ -41,9 +41,10 @@
 
       <div class="skill-set">
         <h3>Languages & Scripting</h3>
-       <div class="skill">c</div>
-       <div class="skill">c#</div>
-       <div class="skill">c++</div>
+       <div class="skill">C</div>
+       <div class="skill">C#</div>
+       <div class="skill">C++</div>
+       <div class="skill">GLSL</div>
        <div class="skill">Unreal Blueprints</div>
        <div class="skill">GD Script</div>
       </div>
