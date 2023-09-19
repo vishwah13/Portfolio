@@ -26,14 +26,15 @@ export default [
           <img class="pc-screenshot" src="img/projects/ARMap2.webp" alt="AR Map Screenshot" /> 
         </div>
     `, "#c10606", false, true),
-    new ProjectData("project-9", "UE5 Melee Comabat System", "img/projects/UE5_MCS.gif", `
+    new ProjectData("project-9", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
     <div class="paragraph">
-                <strong>Melee Comabat System</strong> is a gameplay system build inside Unreal Engine 5 using Gameplay Ability System and c++, inspired by dark souls.
+                <strong>Melee Combat System</strong> is a gameplay system build inside Unreal Engine 5 using Gameplay Ability System and c++, inspired by dark souls.
             </div>
 
             <div class="paragraph">
               Main features :
               <ul>
+              <li>Uses Gameplay Ability System(GAS)</li>
               <li>Combo syatem, both light and heavy attack</li>
               <li>Lock into enemies</li>
               <li>look at rotation</li>
