@@ -18,10 +18,14 @@ export default Vue.extend({
 
 .footer {
   background-color: @bodyBgColor;
+  color: @contentBgColor;
   width: 100%;
   font-size: 0.8em;
   opacity: 0.7;
   padding-bottom: 30px;
+}
+a {
+color:  @contentBgColor;
 }
 
 .left, .right {

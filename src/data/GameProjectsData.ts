@@ -188,7 +188,7 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/Doodle.png" alt="Doodle Screenshot" />
         <img class="pc-screenshot" src="img/projects/Doodle2.png" alt="Doodle Screenshot" />
-    </div>`, "#e48246"),
+    </div>`, "#383838"),
     new ProjectData("project-7", "Ultimate BreakOut", "img/projects/BreakOut.gif", `
     <div class="paragraph">
         <strong>Ultimate BreakOut</strong> is a clone of Breakout built using Godot game engine for GMTK 2021 game jam.
@@ -212,5 +212,5 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/BreakOut.gif" alt="BreakOut Screenshot" />
         <img class="pc-screenshot" src="img/projects/BreakOut2.jpg" alt="BreakOut Screenshot" />
-    </div>`, "#e48246")
+    </div>`, "#23bd69")
 ];

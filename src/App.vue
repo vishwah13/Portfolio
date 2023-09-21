@@ -43,6 +43,7 @@ Helpers.preloadImages([
 html, body {
   margin: 0px;
   background-color: @bodyBgColor;
+  //background-image: url("../public/img/projects/FlatLand1.webp");
 }
 
 #app {
