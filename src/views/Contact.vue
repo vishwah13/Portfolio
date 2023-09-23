@@ -12,7 +12,7 @@
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:vishwahrocks@gmail.com" target="_blank">vishwahrocks@gmail.com</a>
+        <a href="mailto:vishwahsivagurunathan@gmail.com" target="_blank">vishwahsivagurunathan@gmail.com</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>

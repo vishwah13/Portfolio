@@ -9,7 +9,7 @@
 
       <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> where most of them are made for game jams, my other notable <router-link to="/other-projects">projects</router-link>, and my <router-link to="/resume">resume</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game developer. You can reach me at <a href="mailto:vishwahrocks@gmail.com">vishwahrocks@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game developer. You can reach me at <a href="mailto:vishwahsivagurunathan@gmail.com">vishwahsivagurunathan@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
