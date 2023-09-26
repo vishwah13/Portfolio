@@ -12,23 +12,23 @@
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:vishwahsivagurunathan@gmail.com" target="_blank">vishwahsivagurunathan@gmail.com</a>
+        <a href="mailto:vishwahsivagurunathan@gmail.com" target="_blank">Email</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/in/vishwah-sivagurunathan-88940414b/" target="_blank">linkedin.com/vishwah</a>
+        <a href="https://www.linkedin.com/in/vishwah-sivagurunathan-88940414b/" target="_blank">linkedin</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
-        <a href="https://github.com/vishwah13" target="_blank">github.com/vishwah13</a>
+        <a href="https://github.com/vishwah13" target="_blank">github.com</a>
       </li>
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
-        <a href="https://vishwah13.itch.io/" target="_blank">vishwah13.itch.io</a>
+        <a href="https://vishwah13.itch.io/" target="_blank">itch.io</a>
       </li>
       <li>
         <i class="fa fa-play fa-lg fa-fw"></i>
-        <a href="https://play.google.com/store/apps/developer?id=VisuDev" target="_blank">play.google.com/VisuDev</a>
+        <a href="https://play.google.com/store/apps/developer?id=VisuDev" target="_blank">Play store</a>
       </li>
     </ul>
 

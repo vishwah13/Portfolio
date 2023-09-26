@@ -88,18 +88,18 @@
       <h3>English</h3>
       <div>Fluent speaker and excellent listener</div>
 
-      <h2>Besides...</h2>
+      <h2>I love...</h2>
       <div>
-        <h3>I ❤️ Video Games</h3>
+        <h3>Video Games</h3>
         <div>My all time favorites are the god of war series, the witcher 3, red dead redemption 2, elden ring and Hades</div>
 
-        <h3>I 🧡 Sports</h3>
+        <h3>Sports</h3>
         <div>I do lot of weight-lifting and I love Cricket.</div>
 
-        <h3>I 💛 Books</h3>
+        <h3>Books</h3>
         <div>I am a avid reader and some of my favorites are the Stranger, the Alchemist, half girlfriend ;)</div>
 
-        <h3>I 💚 Cinema</h3>
+        <h3>Cinema</h3>
         <div>The Movie and series I love Spider-Man across the spider verse, game of thrones, Peaky Blinders, one piece.</div>
 
       </div>
