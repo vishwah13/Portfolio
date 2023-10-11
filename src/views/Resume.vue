@@ -16,7 +16,7 @@
       <br />Besides programming and developing, I'm passionate about weight-lifting, bouldering, cooking, reading random books and traveling to unknown places which I never been.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/Vishwah_Resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <a class="download-link" href="d/MyCV.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
