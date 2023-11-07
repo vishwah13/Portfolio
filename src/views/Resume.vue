@@ -57,6 +57,7 @@
         <div class="skill">Raylib</div>
         <div class="skill">SDL</div>
         <div class="skill">OpenGL</div>
+        <div class="skill">Vulkan</div>
       </div>
       <div style="clear:both" />
       <div class="skill-set">

@@ -92,7 +92,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/IYM3.png" alt="In Your Nightmare Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "StuBrew VR", "img/projects/StuBrew2.png", `
+    new ProjectData("project-4", "StuBrew VR in UE5", "img/projects/StuBrew2.png", `
     <div class="paragraph">
     <strong>StuBrew VR</strong> is a Virtual Reality game made for my dissertation, It is a interactive beer brewing experience made using <strong>Unreal Engine 5</strong>  .
     </div>
@@ -128,7 +128,18 @@ export default [
         And a NPC character tries to clean the paint and catch the player.
         <br/>Contributed by <a target="_blank" href="https://github.com/Team2-PaintGame/Team2-PaintingGame/graphs/contributors">Team</a>.
     </div>
-    
+
+    <div class="paragraph">
+    Main features :
+    <ul>
+    <li>Custome game engine using OpenGL</li>
+    <li>Works on PS4</li>
+    <li>Networked multiplayer</li>
+    <li>co-op game mode</li>
+    <li>AI to chase player</li>
+    </ul>
+    </div>
+
     <div class="paragraph">
          Features I contributed to :
         <ul>
@@ -141,16 +152,6 @@ export default [
         <li>level design</li>
         </ul>
     </div>
-    <div class="paragraph">
-    Main features :
-    <ul>
-    <li>Custome game engine using OpenGL</li>
-    <li>Works on PS4</li>
-    <li>Networked multiplayer</li>
-    <li>co-op game mode</li>
-    <li>AI to chase player</li>
-    </ul>
-</div>
 
     <div class="paragraph">
         <div class="notice">
@@ -212,5 +213,59 @@ export default [
     <div class="paragraph center">
         <img class="pc-screenshot" src="img/projects/BreakOut.gif" alt="BreakOut Screenshot" />
         <img class="pc-screenshot" src="img/projects/BreakOut2.jpg" alt="BreakOut Screenshot" />
-    </div>`, "#23bd69")
+    </div>`, "#23bd69"),
+    new ProjectData("project-8", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
+    <div class="paragraph">
+                <strong>Melee Combat System</strong> is a gameplay system build inside Unreal Engine 5 using Gameplay Ability System and c++, inspired by dark souls.
+            </div>
+
+            <div class="paragraph">
+              Main features :
+              <ul>
+              <li>Uses Gameplay Ability System(GAS)</li>
+              <li>Combo syatem, both light and heavy attack</li>
+              <li>Lock into enemies</li>
+              <li>look at rotation</li>
+              <li>Build modularly, new ability can be easily added</li>
+              </ul>
+          </div>
+
+            <div class="paragraph">
+              <div class="notice">
+                Open Source project, source code is available at <a href="https://github.com/vishwah13/UE5_MeleeCombat_System" target="_blank"> Github</a>
+              </div>
+            </div>
+
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/UE5_MCS.gif" alt="Drew Blood Screenshot" />
+                <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
+                <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
+            </div>`, "#1ca1e2"),
+            new ProjectData("project-9", "Vulkan graphics engine", "img/projects/VulkanEngine_Teapot.png", `
+            <div class="paragraph">
+                        A <strong>graphics engine </strong> built using Vulkan and C++.
+                    </div>
+        
+                    <div class="paragraph">
+                      Main features :
+                      <ul>
+                      <li>3D rendering</li>
+                      <li>Uses uniform buffers</li>
+                      <li>Diffuse shading</li>
+                      <li>Camera Control</li>
+                      <li>Build modularly</li>
+                      </ul>
+                  </div>
+        
+                    <div class="paragraph">
+                      <div class="notice">
+                        Open Source project, source code is available at <a href="https://github.com/vishwah13/Vulkan_Graphics_Engine" target="_blank"> Github</a>
+                      </div>
+                    </div>
+        
+                    <div class="paragraph center">
+                        <img class="pc-screenshot" src="img/projects/Vulkan_teapot.gif" alt="Vulkan Screenshot" />
+                        <img class="pc-screenshot" src="img/projects/Vulkan_Cube.gif" alt="Vulkan Screenshot" />
+                        <img class="pc-screenshot" src="img/projects/Vulkan_Triangle.gif" alt="Vulkan Screenshot" /> 
+                    </div>`, "#1ca1e2")
 ];
