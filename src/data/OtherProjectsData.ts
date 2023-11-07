@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-10", "AR Map", "https://play-lh.googleusercontent.com/dy-ZDU249ZiH8ynNgy_U6n6d0SpW3GmBx7Lq5Hd5UVUQ1GU7dwpRJEATnRBdxG-X7g=w2560-h1440-rw", `
+    new ProjectData("project-11", "AR Map", "https://play-lh.googleusercontent.com/dy-ZDU249ZiH8ynNgy_U6n6d0SpW3GmBx7Lq5Hd5UVUQ1GU7dwpRJEATnRBdxG-X7g=w2560-h1440-rw", `
     <div class="paragraph">
       <strong>AR Map</strong> alows user to search for a city and display the whole Map in 3D augumented reality.
        AR Map is the first Augumented reality app which I published. It's available on Google play Store.
@@ -26,7 +26,7 @@ export default [
           <img class="pc-screenshot" src="img/projects/ARMap2.webp" alt="AR Map Screenshot" /> 
         </div>
     `, "#c10606", false, true),
-    new ProjectData("project-11", "Recipe finder", "img/projects/recipe.png", `
+    new ProjectData("project-12", "Recipe finder", "img/projects/recipe.png", `
     <div class="paragraph">
                 <strong>Recipe finder</strong> is built using react, this is a learnig project which I used to learn React JS.
                  In this app the user can search for any recipe it will provide the details for how to make the dishs and also provides calorie information.

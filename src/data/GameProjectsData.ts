@@ -176,7 +176,7 @@ export default [
     <li>Only single header file is used</li>
     <li>Procedural programming</li>
     <li>Pixel art</li>
-    <li>infinit gameplay</li>
+    <li>Infinit gameplay</li>
     </ul>
 </div>
 
@@ -200,7 +200,7 @@ export default [
     <li>Made using Godot Engine</li>
     <li>Co-op</li>
     <li>Post-Processing effects</li>
-    <li>infinit gameplay</li>
+    <li>Infinit gameplay</li>
     </ul>
 </div>
 
@@ -267,5 +267,33 @@ export default [
                         <img class="pc-screenshot" src="img/projects/Vulkan_teapot.gif" alt="Vulkan Screenshot" />
                         <img class="pc-screenshot" src="img/projects/Vulkan_Cube.gif" alt="Vulkan Screenshot" />
                         <img class="pc-screenshot" src="img/projects/Vulkan_Triangle.gif" alt="Vulkan Screenshot" /> 
-                    </div>`, "#1ca1e2")
+                    </div>`, "#1ca1e2"),
+                    new ProjectData("project-10", "UE4 Platformer", "img/projects/Platformer_2.png", `
+                    <div class="paragraph">
+                                A <strong> story based third person platforming </strong> game built using unreal Engine 4.27.
+                            </div>
+                
+                            <div class="paragraph">
+                              Main features :
+                              <ul>
+                              <li>Dialog system</li>
+                              <li>Third person controller</li>
+                              <li>Water shader</li>
+                              <li>Story based gameplay</li>
+                              </ul>
+                          </div>
+                
+                            <div class="paragraph">
+                              <div class="notice">
+                                Open Source project <a href="https://github.com/vishwah13/UE4_Platformer" target="_blank"> source code </a> and <a href="https://github.com/vishwah13/UE4_Platformer/releases/tag/Prototype" target="_blank"> game build </a> is available at Github.
+                              </div>
+                            </div>
+                
+                            <div class="paragraph center">
+                                <img class="pc-screenshot" src="img/projects/Platformer_1.png" alt="Vulkan Screenshot" />
+                                <img class="pc-screenshot" src="img/projects/Platformer_2.png" alt="Vulkan Screenshot" />
+                                <img class="pc-screenshot" src="img/projects/Platformer_6.png" alt="Vulkan Screenshot" />
+                                <img class="pc-screenshot" src="img/projects/Platformer_4.png" alt="Vulkan Screenshot" /> 
+                                <img class="pc-screenshot" src="img/projects/Platformer_5.png" alt="Vulkan Screenshot" /> 
+                            </div>`, "#1ca1e2")
 ];
