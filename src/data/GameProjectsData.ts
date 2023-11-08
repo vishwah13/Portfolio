@@ -4,7 +4,7 @@ export default [
     new ProjectData("project-1", "Flatland In Chaos", "img/projects/FlatLand1.webp",
     `
     <div class="paragraph">
-     <strong>Flatland In Chaos</strong> is a thing of beauty that I am so proud of. Because I learn to complete game from scratch and published it on Google play store.
+     <strong>Flatland In Chaos</strong> is a thing of beauty that I am so proud of, because I learn to complete game from scratch and published it on Google play store. Built using <strong>unity and C# </strong>
      
     </div>
     <div class="paragraph center">
@@ -18,9 +18,9 @@ export default [
         Main features :
         <ul>
         <li>Score Gameplay type</li>
-        <li>Leaderboards and achivements from Google Play Services</li>
+        <li><strong>Leaderboards</strong> and <strong>achivements </strong>from Google Play Services</li>
         <li>Original Art, Music and Sound effects</li>
-        <li>Monetization though both In-game items and Reward videos, using UnityAds</li>
+        <li><strong>Monetization</strong> though both In-game items and Reward videos, using UnityAds</li>
         </ul>
     </div>
 
@@ -31,68 +31,7 @@ export default [
         <img class="phone-screenshot" src="img/projects/FlatLand4.webp" alt="Flatland in Chaos Screenshot" />
     </div>
     `, "#23bd69", true),
-    new ProjectData("project-2", "Hopin", "img/projects/Hopin.gif", `
-    <div class="paragraph">
-        <strong>Hopin</strong> is a platformer/puzzle game, Made for ludum dare 49.
-        <br/>Art by <a target="_blank" href="https://kaylousberg.itch.io/">KAYKIT</a>.
-    </div>
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/Hopin.gif" alt="Hopin Gif" />
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Unique gameplay</li>
-        <li>Original music and sound effects</li>
-        <li>Avaibale on web and windows</li>
-        <li>SOLID design principles</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-    Play on browser and Windows is available at <a href="https://vishwah13.itch.io/hopin" target="_blank">itch.io</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/Hopin2.png" alt="Hopin Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Hopin3.png" alt="Hopin Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Hopin4.png" alt="Hopin Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Hopin5.png" alt="Hopin Screenshot" />
-    </div>
-    `, "#5a78af"),
-    new ProjectData("project-3", "In Your Nightmare", "img/projects/IYM.png", `
-    <div class="paragraph">
-        <strong>In Your Nightmare</strong> is my first procedural generation project, where each time new maze is created for the player to escape and also an AI chases the player
-    </div>
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://img.itch.zone/aW1nLzQ3NTg5NjcucG5n/original/DTEw%2Ff.png" alt="paint game screenshot"/>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Infinite Procedural generation</li>
-        <li>AI with state machine</li>
-        <li>Visual effects (rain) and PostProcessing effects</li>
-        <li>First-person character controller</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-       Windows build is available on <a href="https://vishwah13.itch.io/in-your-nightmare" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/IYM2.png" alt="In Your Nightmare Screenshot" />
-        <img class="pc-screenshot" src="img/projects/IYM3.png" alt="In Your Nightmare Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "StuBrew VR in UE5", "img/projects/StuBrew2.png", `
+    new ProjectData("project-5", "StuBrew VR in UE5", "img/projects/StuBrew2.png", `
     <div class="paragraph">
     <strong>StuBrew VR</strong> is a Virtual Reality game made for my dissertation, It is a interactive beer brewing experience made using <strong>Unreal Engine 5</strong>  .
     </div>
@@ -122,7 +61,122 @@ export default [
         <img class="pc-screenshot" src="img/projects/StuBrew3.png" alt="StuBrew VR Screenshot" />
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "PaintGame", "img/projects/splats.png", `
+    new ProjectData("project-3", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
+    <div class="paragraph">
+                <strong>Melee Combat System</strong> is a gameplay system build inside <strong>Unreal Engine 5</strong> using <strong>Gameplay Ability System</strong> and <strong>C++</strong>, inspired by dark souls.
+            </div>
+
+            <div class="paragraph">
+              Main features :
+              <ul>
+              <li>Uses <strong>Gameplay Ability System(GAS)</strong></li>
+              <li>Combo system, both light and heavy attack</li>
+              <li>Lock into enemies</li>
+              <li>look at rotation</li>
+              <li>Build modularly, new ability can be easily added</li>
+              </ul>
+          </div>
+
+            <div class="paragraph">
+              <div class="notice">
+                Open Source project, source code is available at <a href="https://github.com/vishwah13/UE5_MeleeCombat_System" target="_blank"> Github</a>
+              </div>
+            </div>
+
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/UE5_MCS.gif" alt="Drew Blood Screenshot" />
+                <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
+                <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
+            </div>`, "#1ca1e2"),
+    new ProjectData("project-2", "Hopin", "img/projects/Hopin.gif", `
+    <div class="paragraph">
+        <strong>Hopin</strong> is a platformer/puzzle game, Made for ludum dare 49. Built using <strong>unity and C# </strong>
+        <br/>Art by <a target="_blank" href="https://kaylousberg.itch.io/">KAYKIT</a>.
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/Hopin.gif" alt="Hopin Gif" />
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Unique gameplay</li>
+        <li>Original music and sound effects</li>
+        <li>Avaibale on web and windows</li>
+        <li>SOLID design principles in C#</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+    <div class="notice">
+    Play on browser and Windows is available at <a href="https://vishwah13.itch.io/hopin" target="_blank">itch.io</a>.
+    </div>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/Hopin2.png" alt="Hopin Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Hopin3.png" alt="Hopin Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Hopin4.png" alt="Hopin Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Hopin5.png" alt="Hopin Screenshot" />
+    </div>
+    `, "#5a78af"),
+    new ProjectData("project-9", "Vulkan graphics engine", "img/projects/Vulkan_teapot.gif", `
+    <div class="paragraph">
+                A <strong>graphics engine </strong> built using Vulkan and C++.
+            </div>
+
+            <div class="paragraph">
+              Main features :
+              <ul>
+              <li>3D rendering</li>
+              <li>Uses uniform buffers</li>
+              <li>Diffuse shading</li>
+              <li>Camera Control</li>
+              <li>Build modularly</li>
+              </ul>
+          </div>
+
+            <div class="paragraph">
+              <div class="notice">
+                Open Source project, source code is available at <a href="https://github.com/vishwah13/Vulkan_Graphics_Engine" target="_blank"> Github</a>
+              </div>
+            </div>
+
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/Vulkan_teapot.gif" alt="Vulkan Screenshot" />
+                <img class="pc-screenshot" src="img/projects/Vulkan_Cube.gif" alt="Vulkan Screenshot" />
+                <img class="pc-screenshot" src="img/projects/Vulkan_Triangle.gif" alt="Vulkan Screenshot" /> 
+            </div>`, "#1ca1e2"),
+    new ProjectData("project-4", "In Your Nightmare", "img/projects/IYM.png", `
+    <div class="paragraph">
+        <strong>In Your Nightmare</strong> is my first <strong>procedural generation</strong> project, where each time new maze is created for the player to escape and also an AI chases the player. Built using <strong>unity and C# </strong>
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="https://img.itch.zone/aW1nLzQ3NTg5NjcucG5n/original/DTEw%2Ff.png" alt="paint game screenshot"/>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Infinite Procedural generation</li>
+        <li>AI with state machine</li>
+        <li>Visual effects (rain) and PostProcessing effects</li>
+        <li>First-person character controller</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+       Windows build is available on <a href="https://vishwah13.itch.io/in-your-nightmare" target="_blank">itch.io</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/IYM2.png" alt="In Your Nightmare Screenshot" />
+        <img class="pc-screenshot" src="img/projects/IYM3.png" alt="In Your Nightmare Screenshot" />
+    </div>
+    `, "#383838"),
+    new ProjectData("project-6", "PaintGame in OpenGL", "img/projects/splats.png", `
     <div class="paragraph">
         <strong>PaintGame</strong> is a team project, It is a spalatoon-like game where the player have to vandalise a museum by spraying paint on the paintings and the statues, 
         And a NPC character tries to clean the paint and catch the player.
@@ -164,8 +218,8 @@ export default [
         <img class="pc-screenshot" src="img/projects/splats2.png" alt="splats Screenshot" />
         <img class="pc-screenshot" src="img/projects/splats3.png" alt="splats Screenshot" />
         <img class="pc-screenshot" src="img/projects/splats4.png" alt="splats Screenshot" />
-    </div>`, "#e48246"),
-    new ProjectData("project-6", "Doodle Jump in C", "img/projects/Doodle.png", `
+    </div>`, "#f70207"),
+    new ProjectData("project-7", "Doodle Jump in C", "img/projects/Doodle.png", `
     <div class="paragraph">
         <strong>Doodle Jump in C</strong> is a clone of Doodle jump built using Raylib library.
     </div>
@@ -190,7 +244,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/Doodle.png" alt="Doodle Screenshot" />
         <img class="pc-screenshot" src="img/projects/Doodle2.png" alt="Doodle Screenshot" />
     </div>`, "#383838"),
-    new ProjectData("project-7", "Ultimate BreakOut", "img/projects/BreakOut.gif", `
+    new ProjectData("project-8", "Ultimate BreakOut", "img/projects/BreakOut.gif", `
     <div class="paragraph">
         <strong>Ultimate BreakOut</strong> is a clone of Breakout built using Godot game engine for GMTK 2021 game jam.
     </div>
@@ -214,63 +268,9 @@ export default [
         <img class="pc-screenshot" src="img/projects/BreakOut.gif" alt="BreakOut Screenshot" />
         <img class="pc-screenshot" src="img/projects/BreakOut2.jpg" alt="BreakOut Screenshot" />
     </div>`, "#23bd69"),
-    new ProjectData("project-8", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
-    <div class="paragraph">
-                <strong>Melee Combat System</strong> is a gameplay system build inside Unreal Engine 5 using Gameplay Ability System and c++, inspired by dark souls.
-            </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Uses Gameplay Ability System(GAS)</li>
-              <li>Combo syatem, both light and heavy attack</li>
-              <li>Lock into enemies</li>
-              <li>look at rotation</li>
-              <li>Build modularly, new ability can be easily added</li>
-              </ul>
-          </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Open Source project, source code is available at <a href="https://github.com/vishwah13/UE5_MeleeCombat_System" target="_blank"> Github</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="img/projects/UE5_MCS.gif" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-            new ProjectData("project-9", "Vulkan graphics engine", "img/projects/VulkanEngine_Teapot.png", `
-            <div class="paragraph">
-                        A <strong>graphics engine </strong> built using Vulkan and C++.
-                    </div>
-        
-                    <div class="paragraph">
-                      Main features :
-                      <ul>
-                      <li>3D rendering</li>
-                      <li>Uses uniform buffers</li>
-                      <li>Diffuse shading</li>
-                      <li>Camera Control</li>
-                      <li>Build modularly</li>
-                      </ul>
-                  </div>
-        
-                    <div class="paragraph">
-                      <div class="notice">
-                        Open Source project, source code is available at <a href="https://github.com/vishwah13/Vulkan_Graphics_Engine" target="_blank"> Github</a>
-                      </div>
-                    </div>
-        
-                    <div class="paragraph center">
-                        <img class="pc-screenshot" src="img/projects/Vulkan_teapot.gif" alt="Vulkan Screenshot" />
-                        <img class="pc-screenshot" src="img/projects/Vulkan_Cube.gif" alt="Vulkan Screenshot" />
-                        <img class="pc-screenshot" src="img/projects/Vulkan_Triangle.gif" alt="Vulkan Screenshot" /> 
-                    </div>`, "#1ca1e2"),
                     new ProjectData("project-10", "UE4 Platformer", "img/projects/Platformer_2.png", `
                     <div class="paragraph">
-                                A <strong> story based third person platforming </strong> game built using unreal Engine 4.27.
+                                A <strong> story based third person platforming </strong> game built using <strong>unreal Engine 4.27</strong>.
                             </div>
                 
                             <div class="paragraph">
