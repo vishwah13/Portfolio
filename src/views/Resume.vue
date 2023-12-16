@@ -3,7 +3,7 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Vishwah Sivagurunathan</strong>, an computer game engineering graduate with a distinction from Newcastle University, highly motivated to work in a team.
+      I'm <strong>Vishwah Sivagurunathan</strong>, a computer game engineering graduate with a distinction from Newcastle University, highly motivated to work in a team.
        I have created and published multiple games on both <a href="https://vishwah13.itch.io/">itch.io</a> and <a href="https://play.google.com/store/apps/developer?id=VisuDev">google play store</a>.
       <br />
       <br />Most of the game programming is self-learned by making games myself as a hobby.
