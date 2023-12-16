@@ -10,7 +10,7 @@
       <br />I love to design and program systems, gameplay and tools. Optimize and make things faster and stable while focusing on quality over quantity. 
       <br />I love teamwork because it is much more enjoyable to work with people who share the same passion as I do.
       <br />
-      <br />Right now I'am looking for a job as game developer, so if you have any opportunity or want to know more about how I've made games, feel free to
+      <br />Right now I'am looking for a job as game developer, so if you have any opportunity or want to know more about how I've made my games, feel free to
       <router-link to="/contact">contact me</router-link>.
       <br />
       <br />Besides programming and developing, I'm passionate about weight-lifting, bouldering, cooking, reading random books and traveling to unknown places which I never been.
