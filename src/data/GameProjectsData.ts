@@ -10,9 +10,6 @@ export default [
     <div class="paragraph center">
         <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/pJiwNEyHVF63Tdwo2lkgDEiGxFoD_T5vEzl6RnYPlCJwMmggBVkA-se3YD1HvxGMdKk=w2560-h1440-rw" alt= "FlatLand In Chaos" />
     </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=com.vishwah.FlatLandInChaos" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
 
     <div class="paragraph">
         Main features :

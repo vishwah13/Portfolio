@@ -7,9 +7,6 @@ export default [
        AR Map is the first Augumented reality app which I published. It's available on Google play Store.
       I always facinated my both VR and AR and I always wanted to build something useful and cool in AR that's why I developed it.
             </div>
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=com.Vishwah.ARMap" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
 
           <div class="paragraph">
             Main features :
