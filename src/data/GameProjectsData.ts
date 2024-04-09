@@ -59,7 +59,7 @@ export default [
     `, "#e80fb7"),
     new ProjectData("project-3", "War-Psychic", "img/projects/WarPhysic.gif", `
     <div class="paragraph">
-    <strong>War Psychic</strong> is a team project, It is Survival First Person game. You play as a lone survivor soldier who has telekinetic powers. Use this power to your advantage to take down as many incoming enemies as possible made using  <strong>Unreal engine 5 and C++</strong>.
+    <strong>War Psychic</strong> is a team project, It is Survival First Person game. You play as a lone survivor soldier who has telekinetic powers. Use this power to your advantage to take down as many incoming enemies as possible made using  <strong>Unreal engine 5, C++ and Perforce</strong>.
     </div>
     <div class="paragraph center">
     <iframe class="youtube" src="https://www.youtube.com/embed/Lo2xoCjnmgI" frameborder="0" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ export default [
         Main features :
         <ul>
         <li>Destructible environment and Objects</li>
-        <li><strong>AI</strong> which patrols, chase and attack player</li>
+        <li>AI which patrols, chase and attack player</li>
         <li>Game feel and effects</li>
         <li>Endless gameplay</li>
         <li>Object Oriented programming</li>
