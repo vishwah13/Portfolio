@@ -57,6 +57,49 @@ export default [
         <img class="pc-screenshot" src="img/projects/T-wrecks2.png" alt="StuBrew VR Screenshot" />
     </div>
     `, "#e80fb7"),
+    new ProjectData("project-3", "War-Psychic", "img/projects/WarPhysic.gif", `
+    <div class="paragraph">
+    <strong>War Psychic</strong> is a team project, It is Survival First Person game. You play as a lone survivor soldier who has telekinetic powers. Use this power to your advantage to take down as many incoming enemies as possible made using  <strong>Unreal engine 5 and C++</strong>.
+    </div>
+    <div class="paragraph center">
+    <iframe class="youtube" src="https://www.youtube.com/embed/Lo2xoCjnmgI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Destructible environment and Objects</li>
+        <li><strong>AI</strong> which patrols, chase and attack player</li>
+        <li>Game feel and effects</li>
+        <li>Endless gameplay</li>
+        <li>Object Oriented programming</li>
+        </ul>
+    </div>
+    <div class="paragraph">
+    Features I contributed :
+    <ul>
+    <li>All types of AI with Animations</li>
+    <li>User Interface(UI)</li>
+    <li>Gameplay Interaction between AI and player and GameLoop</li>
+    <li>Setting up Perforce</li>
+    <li>Music,SFX and VFX</li>
+    </ul>
+</div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Play on browser and Windows is available at <a href="https://usbgames.itch.io/war-psychic" target="_blank">itch.io</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/WarPhysic_8.png" alt="WarPhysic Screenshot" />
+        <img class="pc-screenshot" src="img/projects/WarPhysic_9.png" alt="WarPhysic Screenshot" />
+        <img class="pc-screenshot" src="img/projects/WarPhysic_1.png" alt="WarPhysic Screenshot" />
+        <img class="pc-screenshot" src="img/projects/WarPhysic_2.png" alt="WarPhysic Screenshot" />
+        <img class="pc-screenshot" src="img/projects/WarPhysic_3.png" alt="WarPhysic Screenshot" />
+        <img class="pc-screenshot" src="img/projects/WarPhysic_7.png" alt="WarPhysic Screenshot" />
+    </div>
+    `, "#e80fb7"),
     new ProjectData("project-3", "StuBrew VR in UE5", "img/projects/StuBrew2.png", `
     <div class="paragraph">
     <strong>StuBrew VR</strong> is a Virtual Reality game made for my dissertation, It is a interactive beer brewing experience made using <strong>Unreal Engine 5</strong>  .

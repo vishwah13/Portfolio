@@ -26,10 +26,6 @@
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://vishwah13.itch.io/" target="_blank">itch.io</a>
       </li>
-      <li>
-        <i class="fa fa-play fa-lg fa-fw"></i>
-        <a href="https://play.google.com/store/apps/developer?id=VisuDev" target="_blank">Play store</a>
-      </li>
     </ul>
 
   </div>

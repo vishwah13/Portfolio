@@ -4,7 +4,7 @@
 
     <div class="paragraph">
       I'm <strong>Vishwah Sivagurunathan</strong>, a computer game engineering graduate with a distinction from Newcastle University, highly motivated to work in a team.
-       I have created and published multiple games on both <a href="https://vishwah13.itch.io/">itch.io</a> and <a href="https://play.google.com/store/apps/developer?id=VisuDev">google play store</a>.
+       I have created and published multiple games on both <a href="https://vishwah13.itch.io/">itch.io</a> and google play store.
       <br />
       <br />Most of the game programming is self-learned by making games myself as a hobby.
       <br />I love to design and program systems, gameplay and tools. Optimize and make things faster and stable while focusing on quality over quantity. 
@@ -16,7 +16,7 @@
       <br />Besides programming and developing, I'm passionate about weight-lifting, bouldering, cooking, reading random books and traveling to unknown places which I never been.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/My_CV.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
+        <a class="download-link" href="d/MyResume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
