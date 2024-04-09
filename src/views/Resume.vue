@@ -64,6 +64,7 @@
         <h3>Tools & softwares</h3>
         <div class="skill">Visual Studio</div>
         <div class="skill">Git</div>
+        <div class="skill">Perforce</div>
         <div class="skill">Trello</div>
         <div class="skill">Blender</div>
         <div class="skill">Aseprite</div>
