@@ -47,6 +47,9 @@
        <div class="skill">GLSL</div>
        <div class="skill">Unreal Blueprints</div>
        <div class="skill">GD Script</div>
+       <div class="skill">HTML</div>
+       <div class="skill">CSS</div>
+       <div class="skill">JavaScript</div>
       </div>
       <div style="clear:both" />
       <div class="skill-set">
@@ -58,6 +61,8 @@
         <div class="skill">SDL</div>
         <div class="skill">OpenGL</div>
         <div class="skill">Vulkan</div>
+        <div class="skill">VueJS</div>
+        <div class="skill">React</div>
       </div>
       <div style="clear:both" />
       <div class="skill-set">
@@ -68,18 +73,17 @@
         <div class="skill">Trello</div>
         <div class="skill">Blender</div>
         <div class="skill">Aseprite</div>
-        <div class="skill">Illustrator</div>
-        <div class="skill">Bosca Ceoil</div>
-        <div class="skill">Chiptone</div>
+        <div class="skill">Adobe Illustrator</div>
+        <div class="skill">Figma</div>
       </div>
-      <div style="clear:both" />
+      <!-- <div style="clear:both" />
       <div class="skill-set">
         <h3>Web</h3>
         <div class="skill">HTML</div>
         <div class="skill">CSS</div>
         <div class="skill">Vue</div>
        
-      </div>
+      </div> -->
       <div style="clear:both" />
 
       <h2>Languages</h2>
