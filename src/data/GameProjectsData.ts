@@ -102,7 +102,7 @@ export default [
     `, "#e80fb7"),
     new ProjectData("project-3", "StuBrew VR in UE5", "img/projects/StuBrew2.png", `
     <div class="paragraph">
-    <strong>StuBrew VR</strong> is a Virtual Reality game made for my dissertation, It is a interactive beer brewing experience made using <strong>Unreal Engine 5</strong>  .
+    <strong>StuBrew VR</strong> is a <strong>Virtual Reality</strong> game made for my dissertation, It is a interactive beer brewing experience made using <strong>Unreal Engine 5</strong>  .
     </div>
     <div class="paragraph center">
     <iframe class="youtube" src="https://www.youtube.com/embed/yTJsf_jb50w" frameborder="0" allowfullscreen></iframe>
@@ -130,33 +130,49 @@ export default [
         <img class="pc-screenshot" src="img/projects/StuBrew3.png" alt="StuBrew VR Screenshot" />
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-4", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
-    <div class="paragraph">
-                <strong>Melee Combat System</strong> is a gameplay system build inside <strong>Unreal Engine 5</strong> using <strong>Gameplay Ability System</strong> and <strong>C++</strong>, inspired by dark souls.
+    new ProjectData("project-8", "PaintGame in OpenGL", "img/projects/splats.png", `
+        <div class="paragraph">
+            <strong>PaintGame</strong> is a team project, It is a spalatoon-like game where the player have to vandalise a museum by spraying paint on the paintings and the statues, 
+            And a NPC character tries to clean the paint and catch the player.
+            <br/>Contributed by <a target="_blank" href="https://github.com/Team2-PaintGame/Team2-PaintingGame/graphs/contributors">Team</a>.
+        </div>
+    
+        <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Custome game engine using OpenGL</li>
+        <li>Works on PS4</li>
+        <li>Networked multiplayer</li>
+        <li>co-op game mode</li>
+        <li>AI to chase player</li>
+        </ul>
+        </div>
+    
+        <div class="paragraph">
+             Features I contributed to :
+            <ul>
+            <li>Split-screen rendering</li>
+            <li>Multi-threading for loading screen</li>
+            <li>Animation system with state machine</li>
+            <li>State machine for menus and handling the different types of game modes</li>
+            <li>GamePlay mechanics</li>
+            <li>Input form Controller</li>
+            <li>level design</li>
+            </ul>
+        </div>
+    
+        <div class="paragraph">
+            <div class="notice">
+            Source code available on <a href="https://github.com/Team2-PaintGame/Team2-PaintingGame" target="_blank">GitHub</a>.
             </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Uses <strong>Gameplay Ability System(GAS)</strong></li>
-              <li>Combo system, both light and heavy attack</li>
-              <li>Lock into enemies</li>
-              <li>look at rotation</li>
-              <li>Build modularly, new ability can be easily added</li>
-              </ul>
-          </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Open Source project, source code is available at <a href="https://github.com/vishwah13/UE5_MeleeCombat_System" target="_blank"> Github</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="img/projects/UE5_MCS.gif" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
+        </div>
+    
+        <div class="paragraph center">
+            <img class="pc-screenshot" src="img/projects/splats.png" alt="splats Screenshot" />
+            <img class="pc-screenshot" src="img/projects/splats2.png" alt="splats Screenshot" />
+            <img class="pc-screenshot" src="img/projects/splats3.png" alt="splats Screenshot" />
+            <img class="pc-screenshot" src="img/projects/splats4.png" alt="splats Screenshot" />
+        </div>`, "#f70207"),
     new ProjectData("project-5", "Hopin", "img/projects/Hopin.gif", `
     <div class="paragraph">
         <strong>Hopin</strong> is a platformer/puzzle game, Made for ludum dare 49. Built using <strong>unity and C# </strong>
@@ -245,49 +261,33 @@ export default [
         <img class="pc-screenshot" src="img/projects/IYM3.png" alt="In Your Nightmare Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-8", "PaintGame in OpenGL", "img/projects/splats.png", `
-    <div class="paragraph">
-        <strong>PaintGame</strong> is a team project, It is a spalatoon-like game where the player have to vandalise a museum by spraying paint on the paintings and the statues, 
-        And a NPC character tries to clean the paint and catch the player.
-        <br/>Contributed by <a target="_blank" href="https://github.com/Team2-PaintGame/Team2-PaintingGame/graphs/contributors">Team</a>.
-    </div>
-
-    <div class="paragraph">
-    Main features :
-    <ul>
-    <li>Custome game engine using OpenGL</li>
-    <li>Works on PS4</li>
-    <li>Networked multiplayer</li>
-    <li>co-op game mode</li>
-    <li>AI to chase player</li>
-    </ul>
-    </div>
-
-    <div class="paragraph">
-         Features I contributed to :
-        <ul>
-        <li>Split-screen rendering</li>
-        <li>Multi-threading for loading screen</li>
-        <li>Animation system with state machine</li>
-        <li>State machine for menus and handling the different types of game modes</li>
-        <li>GamePlay mechanics</li>
-        <li>Input form Controller</li>
-        <li>level design</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Source code available on <a href="https://github.com/Team2-PaintGame/Team2-PaintingGame" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/splats.png" alt="splats Screenshot" />
-        <img class="pc-screenshot" src="img/projects/splats2.png" alt="splats Screenshot" />
-        <img class="pc-screenshot" src="img/projects/splats3.png" alt="splats Screenshot" />
-        <img class="pc-screenshot" src="img/projects/splats4.png" alt="splats Screenshot" />
-    </div>`, "#f70207"),
+    new ProjectData("project-4", "UE5 Melee Combat System", "img/projects/UE5_MCS.gif", `
+        <div class="paragraph">
+                    <strong>Melee Combat System</strong> is a gameplay system build inside <strong>Unreal Engine 5</strong> using <strong>Gameplay Ability System</strong> and <strong>C++</strong>, inspired by dark souls.
+                </div>
+    
+                <div class="paragraph">
+                  Main features :
+                  <ul>
+                  <li>Uses <strong>Gameplay Ability System(GAS)</strong></li>
+                  <li>Combo system, both light and heavy attack</li>
+                  <li>Lock into enemies</li>
+                  <li>look at rotation</li>
+                  <li>Build modularly, new ability can be easily added</li>
+                  </ul>
+              </div>
+    
+                <div class="paragraph">
+                  <div class="notice">
+                    Open Source project, source code is available at <a href="https://github.com/vishwah13/UE5_MeleeCombat_System" target="_blank"> Github</a>
+                  </div>
+                </div>
+    
+                <div class="paragraph center">
+                    <img class="pc-screenshot" src="img/projects/UE5_MCS.gif" alt="Drew Blood Screenshot" />
+                    <img class="pc-screenshot" src="img/projects/UE5_MCS2.gif" alt="Drew Blood Screenshot" />
+                    <img class="pc-screenshot" src="img/projects/UE5_MCS3.gif" alt="Drew Blood Screenshot" /> 
+                </div>`, "#1ca1e2"),
     new ProjectData("project-9", "Doodle Jump in C", "img/projects/Doodle.png", `
     <div class="paragraph">
         <strong>Doodle Jump in C</strong> is a clone of Doodle jump built using Raylib library.
