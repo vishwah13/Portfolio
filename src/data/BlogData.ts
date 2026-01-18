@@ -10,74 +10,37 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: 'getting-started-vulkan',
-    title: 'Getting Started with Vulkan: A Beginner\'s Guide',
-    excerpt: 'Learn the fundamentals of Vulkan API and set up your first rendering pipeline with modern graphics programming.',
-    date: '2024-01-15',
-    tags: ['Vulkan', 'Graphics', 'C++'],
-    content: `# Getting Started with Vulkan
+    slug: 'sample-blog-post',
+    title: 'Sample Blog Post',
+    excerpt: 'This is a placeholder blog post. More content coming soon!',
+    date: '2024-01-18',
+    tags: ['Graphics', 'Programming'],
+    content: `# Lorem Ipsum
 
-Vulkan is a low-level graphics API that gives you explicit control over the GPU. In this post, I'll walk you through setting up your first Vulkan application.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-## Why Vulkan?
+## Dolor Sit Amet
 
-- **Performance**: Direct control over GPU resources
-- **Portability**: Cross-platform support (Windows, Linux, Android, etc.)
-- **Modern**: Designed for multi-threaded rendering
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Setting Up
+### Consectetur Adipiscing
 
-First, you'll need to install the Vulkan SDK...
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+- Nemo enim ipsam voluptatem
+- Quia voluptas sit aspernatur
+- Aut odit aut fugit
+
+## Code Example
 
 \`\`\`cpp
-// Initialize Vulkan instance
-VkApplicationInfo appInfo{};
-appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
-appInfo.pApplicationName = "Hello Vulkan";
-appInfo.applicationVersion = VK_MAKE_VERSION(1, 0, 0);
+// Sample code
+void example() {
+    std::cout << "Hello World" << std::endl;
+}
 \`\`\`
 
-## Next Steps
-
-Stay tuned for more posts about creating render passes, descriptor sets, and building a full rendering engine!
-`
-  },
-  {
-    slug: 'pbr-rendering-explained',
-    title: 'Physically Based Rendering: The Complete Guide',
-    excerpt: 'Deep dive into PBR theory, BRDF equations, and implementing metallic-roughness workflow in your game engine.',
-    date: '2024-01-10',
-    tags: ['PBR', 'Rendering', 'Graphics'],
-    content: `# Physically Based Rendering Explained
-
-Physically Based Rendering (PBR) has become the standard for realistic rendering in modern games and real-time applications.
-
-## What is PBR?
-
-PBR is a shading model that aims to simulate light in a physically accurate way. The key principles are:
-
-1. **Energy Conservation**: Light reflected cannot exceed light received
-2. **Fresnel Effect**: Reflectance changes based on viewing angle
-3. **Microfacet Theory**: Surface roughness affects light scattering
-
-## The Metallic-Roughness Workflow
-
-Most modern engines use this workflow:
-
-- **Base Color**: The diffuse color or albedo
-- **Metallic**: How metallic the surface is (0-1)
-- **Roughness**: How rough the surface is (0-1)
-- **Normal Map**: Surface detail
-
-\`\`\`glsl
-// Simplified PBR shader
-vec3 F0 = mix(vec3(0.04), albedo, metallic);
-vec3 fresnel = fresnelSchlick(NdotV, F0);
-\`\`\`
-
-## Implementation Tips
-
-In my Agni engine, I use a deferred rendering pipeline with G-buffers storing these PBR properties...
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 `
   }
 ]
