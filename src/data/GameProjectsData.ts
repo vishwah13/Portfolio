@@ -2,6 +2,46 @@ import { createProject, type ProjectData } from '@/data/ProjectData'
 
 const gameProjects: ProjectData[] = [
   createProject(
+    'project-0',
+    'Agni Game Engine',
+    '/img/projects/NewProgressPic.png',
+    `
+    <div class="paragraph">
+        <strong>Agni</strong> is a personal game engine built with modern graphics technology, featuring bleeding-edge <strong>Vulkan 1.4</strong>, physically-based rendering, entity-component-system architecture, and integrated physics simulation.
+    </div>
+    <div class="paragraph">
+      Rendering Features:
+      <ul>
+      <li>Vulkan 1.4 with dynamic rendering and bindless resources</li>
+      <li>Physically-based rendering using metallic-roughness workflow</li>
+      <li>Shadow mapping with PCF soft shadows for multiple light types</li>
+      <li>Support for up to 256 point lights and 64 spot lights</li>
+      <li>Frustum culling and configurable anti-aliasing (1x-8x MSAA)</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Architecture & Tools:
+      <ul>
+      <li>Data-driven design using the <strong>Flecs ECS</strong> framework</li>
+      <li><strong>Jolt Physics</strong> engine integration</li>
+      <li>glTF 2.0 model loading with automatic material extraction</li>
+      <li>ImGui-based editor with scene hierarchy and component inspector</li>
+      <li>Tracy Profiler and RenderDoc integration for debugging</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      <div class="notice">
+        Open Source project, source code is available at <a href="https://github.com/vishwah13/Agni" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="/img/projects/NewProgressPic.png" alt="Agni Game Engine Screenshot" />
+    </div>
+    `,
+    '#f97316'
+  ),
+
+  createProject(
     'project-1',
     'Flatland In Chaos',
     '/img/projects/FlatLand1.webp',
@@ -28,8 +68,7 @@ const gameProjects: ProjectData[] = [
         <img class="phone-screenshot" src="/img/projects/FlatLand4.webp" alt="Flatland in Chaos Screenshot" />
     </div>
     `,
-    '#23bd69',
-    true
+    '#23bd69'
   ),
 
   createProject(
@@ -229,38 +268,6 @@ const gameProjects: ProjectData[] = [
     </div>
     `,
     '#5a78af'
-  ),
-
-  createProject(
-    'project-6',
-    'Vulkan Graphics Engine',
-    '/img/projects/Vulkan_teapot.gif',
-    `
-    <div class="paragraph">
-        A <strong>graphics engine</strong> built using Vulkan and C++.
-    </div>
-    <div class="paragraph">
-      Main features:
-      <ul>
-      <li>3D rendering</li>
-      <li>Uses uniform buffers</li>
-      <li>Diffuse shading</li>
-      <li>Camera Control</li>
-      <li>Built modularly</li>
-      </ul>
-    </div>
-    <div class="paragraph">
-      <div class="notice">
-        Open Source project, source code is available at <a href="https://github.com/vishwah13/Vulkan_Graphics_Engine" target="_blank">GitHub</a>
-      </div>
-    </div>
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/Vulkan_teapot.gif" alt="Vulkan Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/Vulkan_Cube.gif" alt="Vulkan Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/Vulkan_Triangle.gif" alt="Vulkan Screenshot" />
-    </div>
-    `,
-    '#1ca1e2'
   ),
 
   createProject(

@@ -5,7 +5,7 @@ import gameProjectsData from '@/data/GameProjectsData'
 
 <template>
   <div class="page game-projects">
-    <h1>Games</h1>
+    <h1>Projects</h1>
 
     <p class="mb-xl">
       The following are some stuff I've made or heavily contributed to.
