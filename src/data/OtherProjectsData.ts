@@ -39,9 +39,6 @@ const otherProjects: ProjectData[] = [
         <strong>Recipe Finder</strong> is built using React. This is a learning project which I used to learn React JS.
          In this app the user can search for any recipe. It will provide the details for how to make the dishes and also provides calorie information.
     </div>
-    <div class="paragraph center">
-      Link to the <a href="https://recipes-find.vercel.app/" target="_blank">app</a>
-    </div>
     <div class="paragraph">
       Main features:
       <ul>
