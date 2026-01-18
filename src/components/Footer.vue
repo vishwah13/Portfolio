@@ -1,54 +1,14 @@
-<template>
-  <div class="footer">
-    <div class="right">Reach me at <a href="mailto:vishwahsivagurunathan@gmail.com">vishwahsivagurunathan@gmail.com</a> or <router-link to="/contact">through here</router-link></div>
-  </div>
-</template>
-
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "Footer"
-});
+<script setup lang="ts">
+// Footer component - no logic needed
 </script>
 
-<style scoped lang="less">
-
-@import '../css/variables.less';
-
-.footer {
-  background-color: @bodyBgColor;
-  color: @contentBgColor;
-  width: 100%;
-  font-size: 0.8em;
-  opacity: 0.7;
-  padding-bottom: 30px;
-}
-a {
-color:  @contentBgColor;
-}
-
-.left, .right {
-    padding-top: 10px;
-    text-align: center;
-  }
-
-@media only screen and (min-width: 620px){
-
-  .footer {
-    padding: 0;
-  }
-
-  .left, .right {
-    padding: 20px;
-  }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float:right;
-  }
-}
-</style>
+<template>
+  <footer class="footer">
+    <div>
+      Reach me at
+      <a href="mailto:vishwahsivagurunathan@gmail.com">vishwahsivagurunathan@gmail.com</a>
+      or
+      <RouterLink to="/contact">through here</RouterLink>
+    </div>
+  </footer>
+</template>

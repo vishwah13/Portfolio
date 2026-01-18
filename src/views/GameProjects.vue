@@ -1,33 +1,21 @@
+<script setup lang="ts">
+import ProjectsList from '@/components/ProjectsList.vue'
+import gameProjectsData from '@/data/GameProjectsData'
+</script>
+
 <template>
-  <div>
+  <div class="page game-projects">
     <h1>Games</h1>
 
-    <div style="margin-bottom: 30px;">
+    <p class="mb-xl">
       The following are some stuff I've made or heavily contributed to.
-    </div>
+    </p>
 
-    <ProjectsList v-bind:projects="projects" />
+    <ProjectsList :projects="gameProjectsData" />
 
-    <div style="margin-top: 20px;">
-      There is more to see on <a target="_blank" href="https://vishwah13.itch.io/">itch.io</a>
-    </div>
+    <p class="mb-lg" style="margin-top: var(--spacing-xl);">
+      There is more to see on
+      <a href="https://vishwah13.itch.io/" target="_blank">itch.io</a>
+    </p>
   </div>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import ProjectsList from "@/components/ProjectsList.vue";
-import gameProjectsData from "@/data/GameProjectsData.ts";
-
-export default Vue.extend({
-  name: "GameProjects",
-  components: {
-    ProjectsList,
-  },
-  data: function () {
-    return {
-      projects: gameProjectsData,
-    };
-  },
-});
-</script>

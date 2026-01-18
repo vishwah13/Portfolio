@@ -1,47 +1,39 @@
-import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 
-Vue.use(VueRouter)
-
-const routes: Array<RouteConfig> = [
+const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'Root',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    name: 'About',
+    component: () => import('@/views/About.vue')
   },
   {
     path: '/resume',
     name: 'Resume',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Resume.vue')
+    component: () => import('@/views/Resume.vue')
   },
   {
     path: '/game-projects',
-    name: 'Game Projects',
-    component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
-  },
-  {
-    path: '/other-projects',
-    name: 'Other Projects',
-    component: () => import(/* webpackChunkName: "about" */ '../views/OtherProjects.vue')
+    name: 'GameProjects',
+    component: () => import('@/views/GameProjects.vue')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+    component: () => import('@/views/Contact.vue')
   },
   {
     path: '/404',
     name: 'NotFound',
-    component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
+    component: () => import('@/views/NotFound.vue')
   },
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     redirect: '/404'
   }
 ]
 
-const router = new VueRouter({
+const router = createRouter({
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes
 })
 

@@ -1,65 +1,52 @@
-<template>
-  <div>
-    <div class="skill-name">{{name}}</div>
+<script setup lang="ts">
+defineProps<{
+  name: string
+  rate: number
+}>()
+</script>
 
+<template>
+  <div class="skill-rate-container">
+    <span class="skill-name">{{ name }}</span>
     <div class="skill-rate">
-      <template v-for="n in 5">
-        <div v-if="n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
-        <div v-if="n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
-      </template>
+      <span
+        v-for="n in 5"
+        :key="n"
+        class="circle"
+        :class="n <= rate ? 'circle-full' : 'circle-empty'"
+      />
     </div>
-    <div class="clear"></div>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "SkillRate",
-  props: {
-    name: String,
-    rate: Number,
-  },
-});
-</script>
-
-<style scoped lang="less">
-
-@import '../css/variables.less';
-
-.clear {
-  clear: both;
+<style scoped>
+.skill-rate-container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
 }
 
 .skill-name {
-  float: left;
-  width: 200px;
+  min-width: 120px;
 }
 
 .skill-rate {
-  float: left;
-  width: 80px;
-  padding-top:11px;
+  display: flex;
+  gap: var(--spacing-xs);
 }
 
 .circle {
-  float: left;
-  border-radius: 5px;
-  height: 10px;
-  width: 10px;
-  border: 0px solid @skillRateCircleColor;
-  background-color: transparent;
-  opacity: 0.6;
-  margin: 0px 2px;
-}
-.circle-full {
-  background-color: @skillRateCircleColor;
-}
-.circle-empty {
-  border-width: 1px;
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent);
 }
 
+.circle-full {
+  background: var(--color-accent);
+}
+
+.circle-empty {
+  background: transparent;
+}
 </style>

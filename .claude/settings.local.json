@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Dev\\\\repos\\\\Portfolio\")",
+      "Bash(dir \"C:\\\\Dev\\\\repos\\\\Portfolio\\\\src\")",
+      "Bash(dir \"C:\\\\Dev\\\\repos\\\\Portfolio\\\\public\")",
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
+    ]
+  }
+}

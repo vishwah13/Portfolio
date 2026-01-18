@@ -1,28 +1,16 @@
+<script setup lang="ts">
+import ProjectsList from '@/components/ProjectsList.vue'
+import otherProjectsData from '@/data/OtherProjectsData'
+</script>
+
 <template>
-  <div>
+  <div class="page other-projects">
     <h1>Other Projects</h1>
 
-    <div style="margin-bottom: 30px;">
-      And here are some Other Projects I've made as well.
-    </div>
-    <ProjectsList v-bind:projects="projects" />
+    <p class="mb-xl">
+      And here are some other projects I've made as well.
+    </p>
+
+    <ProjectsList :projects="otherProjectsData" />
   </div>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import ProjectsList from "@/components/ProjectsList.vue";
-import otherProjectsData from "@/data/OtherProjectsData.ts";
-
-export default Vue.extend({
-  name: "OtherProjects",
-  components: {
-    ProjectsList,
-  },
-  data: function () {
-    return {
-      projects: otherProjectsData,
-    };
-  },
-});
-</script>
