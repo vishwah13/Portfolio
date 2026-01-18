@@ -6,7 +6,9 @@
       "Bash(dir \"C:\\\\Dev\\\\repos\\\\Portfolio\\\\public\")",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(npm run build:*)",
+      "Bash(git mv:*)"
     ]
   }
 }
