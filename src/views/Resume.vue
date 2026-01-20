@@ -9,34 +9,10 @@ const baseUrl = import.meta.env.BASE_URL
     <div class="resume-header">
       <div class="resume-intro">
         <p>
-          I'm <strong>Vishwah Sivagurunathan</strong>, a computer game engineering
-          graduate with a distinction from Newcastle University, highly motivated to
-          work in a team. I have created and published multiple games on both
-          <a href="https://vishwah13.itch.io/" target="_blank">itch.io</a> and
-          Google Play Store.
+         Passionate developer with a Master’s in Computer Game Engineering (Distinction) from Newcastle University. Proficient in C++ and C#, with expertise in graphics programming, performance optimization, and graphics engine development. Experienced in Unreal and Unity engines, with a strong background in developing computer graphics, Virtual Reality (VR), and Augmented Reality (AR) applications. Skilled in building scalable systems, debugging performance bottlenecks, and collaborating with cross-functional teams to deliver high-quality interactive experiences.
         </p>
 
-        <p>
-          Most of the game programming is self-learned by making games myself as a
-          hobby. I love to design and program systems, gameplay and tools. Optimize
-          and make things faster and stable while focusing on quality over quantity.
-          I love teamwork because it is much more enjoyable to work with people who
-          share the same passion as I do.
-        </p>
-
-        <p>
-          Right now I'm looking for a job as a game developer, so if you have any
-          opportunity or want to know more about how I've made my games, feel free
-          to <RouterLink to="/contact">contact me</RouterLink>.
-        </p>
-
-        <p>
-          Besides programming and developing, I'm passionate about weight-lifting,
-          bouldering, cooking, reading random books and traveling to unknown places
-          which I've never been.
-        </p>
-
-        <a class="download-link" :href="`${baseUrl}d/MyResume.pdf`" target="_blank">
+        <a class="download-link" :href="`${baseUrl}d/Vishwah_Sivagurunathan.pdf`" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
             <polyline points="7 10 12 15 17 10"/>
@@ -70,6 +46,8 @@ const baseUrl = import.meta.env.BASE_URL
         <span class="skill">C#</span>
         <span class="skill">C++</span>
         <span class="skill">GLSL</span>
+        <span class="skill">HLSL</span>
+        <span class="skill">Slang</span>
         <span class="skill">Unreal Blueprints</span>
         <span class="skill">GD Script</span>
         <span class="skill">HTML</span>

@@ -9,6 +9,9 @@ const gameProjects: ProjectData[] = [
     <div class="paragraph">
         <strong>Agni</strong> is a personal game engine built with modern graphics technology, featuring bleeding-edge <strong>Vulkan 1.4</strong>, physically-based rendering, entity-component-system architecture, and integrated physics simulation.
     </div>
+    <div class="paragraph center">
+    <iframe class="youtube" src="https://www.youtube.com/embed/Yz6i8lrI2iY" frameborder="0" allowfullscreen></iframe>
+    </div>
     <div class="paragraph">
       Rendering Features:
       <ul>

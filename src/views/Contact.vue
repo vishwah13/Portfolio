@@ -7,8 +7,7 @@
     <h1>Let's get in touch</h1>
 
     <p class="mb-xl">
-      I'm looking for a job! Feel free to contact me about any opportunity, or
-      just to chat about the things I made.
+      Feel free to contact me to chat about any ideas or games.
     </p>
 
     <ul class="contact-list">

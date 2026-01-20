@@ -9,22 +9,13 @@ const baseUrl = import.meta.env.BASE_URL
     <div class="about-content">
       <div class="about-text">
         <p>
-          I'm <strong>Vishwah Sivagurunathan</strong>, a computer game engineering
-          graduate with a distinction from Newcastle University and an aspiring game
-          developer. I love making games and apps as a hobby and for fun. What drives
-          my passion for programming video games is the challenge and creative ways
-          to solve problems.
+          I'm a computer game engineer, I specialize in graphics and optimization. You would find me needlessly micro-optimizing stuff, also trying to learn and master parallel computing.
         </p>
 
-        <p>
-          I've worked on
-          <RouterLink to="/game-projects">games</RouterLink> where most of them are
-          made for game jams. Check out my
-          <RouterLink to="/resume">resume</RouterLink> for more details.
-        </p>
+        <p>Check out the <a href="https://github.com/vishwah13/Agni">game engine</a> I have been making</p>
 
         <p>
-          I'm <strong>currently looking for a job</strong> as a game developer. You
+          I'm currently working as an VR AR Developer. You
           can reach me at
           <a href="mailto:vishwahsivagurunathan@gmail.com">vishwahsivagurunathan@gmail.com</a>
           or <RouterLink to="/contact">through here</RouterLink>.
