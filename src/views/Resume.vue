@@ -28,6 +28,20 @@ const baseUrl = import.meta.env.BASE_URL
     </div>
 
     <div class="resume-content">
+      <h2>Experience</h2>
+
+      <h3>AR VR Developer - Indus Trust (Full-time) - March 2025 - Present</h3>
+      <p>Research and development of Augmented Reality and Virtual Reality application for the educational environment.</p>
+
+      <h3>C++ Developer - Microfacet.io (Volunteering, Non-Profit) - April 2025 - December 2025</h3>
+      <p>Architected and developed a Cross-Platform high-performance Physically Based Rendering software.</p>
+
+      <h3>Unreal Engine Developer - Norian Games - April 2024 – August 2024</h3>
+      <p>AI and gameplay programming for an multiplayer dinosaur survival game.</p>
+
+       <h3>Game Developer - StuBrew (Newcastle Univeristy) - May 2023 – August 2023</h3>
+      <p>VR Simulation of the local brewery, made using Unreal Engine 5.</p>
+
       <h2>Education</h2>
 
       <h3>Newcastle University - 2023</h3>

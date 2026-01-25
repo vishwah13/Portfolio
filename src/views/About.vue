@@ -9,7 +9,7 @@ const baseUrl = import.meta.env.BASE_URL
     <div class="about-content">
       <div class="about-text">
         <p>
-          I'm a computer game engineer, I specialize in graphics and optimization. You would find me needlessly micro-optimizing stuff, also trying to learn and master parallel computing.
+          I’m a computer game engineer specializing in graphics and optimization, delivering high-quality results under tight deadlines. I’m also actively learning and mastering parallel computing.
         </p>
 
         <p>Check out the <a href="https://github.com/vishwah13/Agni">game engine</a> I have been making</p>
